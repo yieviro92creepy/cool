@@ -100,7 +100,7 @@ local entityTable = Spawner.createEntity({
 
     },
 
-    CustomDialog = {"You to A-245", "Jedhd", "ehehhsja", "logra."}, -- Custom death message
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"welcome to back.", "sorry not place.", "im sorry wait"}, "Yellow")
 
 })
 
